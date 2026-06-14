@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>ESMEX Aceros | Lámina Galvanizada en Puebla, México</title>
+  <meta name="description" content="ESMEX Aceros, distribuidor certificado de lámina galvanizada G60, G80 y G90 en Puebla, México. Calidad que construye confianza: entrega inmediata, atención personalizada y envíos seguros.">
+  <meta name="keywords" content="lámina galvanizada, aceros Puebla, distribuidora lámina galvanizada, G60, G90, Z180, Z275, ductos galvanizados, construcción, ESMEX Aceros, acero galvanizado Puebla México">
+  <meta name="author" content="ESMEX Aceros">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="ESMEX Aceros | Lámina Galvanizada en Puebla, México">
+  <meta property="og:description" content="Distribuidor certificado de lámina galvanizada de alta calidad. Grados G60, G80 y G90 con cobertura en Puebla y zona metropolitana.">
+  <meta property="og:image"       content="img/hero.png">
+  <meta property="og:locale"      content="es_MX">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="ESMEX Aceros | Lámina Galvanizada en Puebla">
+  <meta name="twitter:description" content="Distribuidor certificado de lámina galvanizada G60, G80 y G90 en Puebla, México.">
+  <meta name="twitter:image"       content="img/hero.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              bg:       '#1a2639',
+              card:     '#d0d8e2',
+              accent:   '#d5e05b',
+              dark:     '#0a101c',
+              textDark: '#1e2b40',
+              orange:   '#f39c12'
+            }
+          },
+          fontFamily: {
+            sans: ['Montserrat', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="antialiased overflow-x-hidden font-sans">
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav class="navbar">
+    <div class="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-16 flex items-center justify-between h-[70px] relative">
+
+      <!-- Logo -->
+      <a href="#inicio" class="inline-block">
+        <img src="img/logo.png" alt="ESMEX Aceros" class="h-9 w-auto object-contain">
+      </a>
+
+      <!-- Desktop nav links -->
+      <div class="hidden md:flex items-center gap-8 text-xs font-bold uppercase tracking-widest text-gray-300">
+        <a href="#inicio"    class="hover:text-brand-accent transition-colors duration-200">Inicio</a>
+        <a href="#catalogo"  class="hover:text-brand-accent transition-colors duration-200">Catálogo</a>
+        <a href="#beneficios" class="hover:text-brand-accent transition-colors duration-200">Beneficios</a>
+        <a href="#contacto"  class="hover:text-brand-accent transition-colors duration-200">Contacto</a>
+      </div>
+
+      <!-- Desktop CTA -->
+      <a href="#contacto" class="hidden md:inline-block btn-primary">
+        Cotizar Ahora
+      </a>
+
+      <!-- Mobile hamburger -->
+      <button id="menu-btn" class="md:hidden text-white text-xl p-2 focus:outline-none" aria-label="Menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="nav-menu" class="nav-menu md:hidden">
+      <a href="#inicio"     class="text-white font-bold uppercase tracking-widest text-sm py-2 hover:text-brand-accent transition-colors">Inicio</a>
+      <a href="#catalogo"   class="text-white font-bold uppercase tracking-widest text-sm py-2 hover:text-brand-accent transition-colors">Catálogo</a>
+      <a href="#beneficios" class="text-white font-bold uppercase tracking-widest text-sm py-2 hover:text-brand-accent transition-colors">Beneficios</a>
+      <a href="#contacto"   class="text-white font-bold uppercase tracking-widest text-sm py-2 hover:text-brand-accent transition-colors">Contacto</a>
+      <a href="#contacto"   class="btn-primary text-center mt-2">Cotizar Ahora</a>
+    </div>
+  </nav>
+
+
+  <main>
+
+    <!-- ============================================================
+         HERO SECTION
+         ============================================================ -->
+    <section id="inicio" class="relative max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-16 py-16 lg:py-0 min-h-[calc(100vh-70px)] flex items-center z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 w-full items-center py-12 lg:py-20">
+
+        <!-- Text column -->
+        <div class="flex flex-col justify-center">
+
+          <!-- Eyebrow -->
+          <div id="hero-eyebrow" class="flex items-center gap-3 mb-6">
+            <div class="accent-line w-12"></div>
+            <span class="text-brand-accent text-xs font-bold uppercase tracking-[0.3em]">Distribuidor Certificado · Puebla, México</span>
+          </div>
+
+          <!-- Heading -->
+          <h1 id="hero-heading" class="text-6xl sm:text-7xl xl:text-[5.5rem] font-black leading-[0.88] tracking-tighter uppercase text-white drop-shadow-xl">
+            Lámina<br>
+            <span class="text-brand-accent">Galvanizada</span>
+          </h1>
+
+          <!-- Body -->
+          <div id="hero-body" class="mt-6 mb-10">
+            <p class="text-xl font-black text-brand-orange uppercase tracking-wide mb-2">
+              Calidad que construye confianza
+            </p>
+            <p class="text-gray-300 font-medium max-w-md text-sm leading-relaxed">
+              Especialistas en lámina galvanizada para ductos y construcción, con cobertura
+              en Puebla y zona metropolitana. Stock inmediato en planta.
+            </p>
+          </div>
+
+          <!-- CTAs -->
+          <div id="hero-cta-wrap" class="flex flex-wrap items-center gap-4">
+            <a href="#contacto" class="btn-primary">
+              Cotizar mi Proyecto
+            </a>
+            <a href="#catalogo" class="inline-flex items-center gap-2 text-white font-bold text-sm uppercase tracking-widest group">
+              Ver Catálogo
+              <i class="fa-solid fa-arrow-right text-brand-accent group-hover:translate-x-1 transition-transform duration-200"></i>
+            </a>
+          </div>
+
+          <!-- Stats strip -->
+          <div id="hero-stats" class="flex gap-8 mt-12 pt-8 border-t border-white/10">
+            <div>
+              <p class="stat-number"><span data-count="15">0</span><span class="text-brand-accent font-black text-2xl">+</span></p>
+              <p class="text-[10px] text-gray-400 uppercase tracking-widest font-bold mt-1">Años de<br>Experiencia</p>
+            </div>
+            <div>
+              <p class="stat-number"><span data-count="500">0</span><span class="text-brand-accent font-black text-2xl">+</span></p>
+              <p class="text-[10px] text-gray-400 uppercase tracking-widest font-bold mt-1">Proyectos<br>Entregados</p>
+            </div>
+            <div>
+              <p class="stat-number"><span data-count="3">0</span></p>
+              <p class="text-[10px] text-gray-400 uppercase tracking-widest font-bold mt-1">Grados<br>Disponibles</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image column -->
+        <div class="relative flex justify-center lg:justify-end items-center">
+
+          <!-- Quality badge -->
+          <div class="quality-badge absolute top-0 right-0 sm:right-8 z-20 hidden sm:flex flex-col items-center justify-center">
+            <div class="flex gap-1 mb-1 text-brand-accent text-[10px]">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span class="text-[8px] font-black uppercase tracking-wider text-gray-300 mb-0.5">Certificado<br>de</span>
+            <span class="text-sm font-black uppercase text-white">Calidad</span>
+            <i class="fa-solid fa-check text-brand-accent mt-1 text-base"></i>
+          </div>
+
+          <!-- Hero image with parallax -->
+          <div id="hero-img-parallax" class="w-full max-w-[500px] lg:max-w-full mt-10 lg:mt-0">
+            <div class="hero-img-card">
+              <div class="hero-img-glow"></div>
+              <img src="img/hero.webp" alt="Lámina galvanizada ESMEX Aceros">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         CATÁLOGO / CALIBRES
+         ============================================================ -->
+    <section id="catalogo" class="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-16 py-20 relative z-10">
+
+      <div class="section-title-wrap reveal">
+        <i class="fa-solid fa-layer-group text-brand-accent text-3xl mt-1 shrink-0"></i>
+        <div>
+          <p class="text-brand-accent text-[10px] font-bold uppercase tracking-[0.3em] mb-1">Especificaciones Técnicas</p>
+          <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight text-white">Calibres Disponibles</h2>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+
+        <!-- Card 1: G60 / G90 -->
+        <article class="product-card reveal stagger-1">
+          <h4 class="text-center font-black text-[10px] mb-5 tracking-[0.3em] text-brand-textDark/60 uppercase">Grados Disponibles</h4>
+
+          <div class="grid grid-cols-2 gap-4 border-b border-gray-400/40 pb-5 mb-5">
+            <div class="text-center border-r border-gray-400/40 pr-4">
+              <span class="block text-5xl font-black text-[#1a2639]">G60</span>
+              <span class="block text-xs font-black mt-1 text-[#1a2639]">Z180</span>
+              <span class="block text-[11px] leading-snug mt-1.5 font-medium text-[#1a2639]/75">180 g/m² de zinc<br>(ambas caras)</span>
+            </div>
+            <div class="text-center">
+              <span class="block text-5xl font-black text-[#1a2639]">G90</span>
+              <span class="block text-xs font-black mt-1 text-[#1a2639]">Z275</span>
+              <span class="block text-[11px] leading-snug mt-1.5 font-medium text-[#1a2639]/75">275 g/m² de zinc<br>(ambas caras)</span>
+            </div>
+          </div>
+
+          <div class="flex justify-between items-center">
+            <div class="w-1/2 pr-3">
+              <img src="img/service.png" alt="Lámina galvanizada ESMEX"
+                   class="w-full object-cover rounded-lg"
+                   style="mix-blend-mode: multiply;">
+            </div>
+            <div class="w-1/2 flex flex-col items-end justify-center gap-3">
+              <div class="flex items-center gap-2">
+                <span class="text-4xl font-black text-[#1a2639]">22</span>
+                <i class="fa-solid fa-circle-check text-[#1a2639] text-xl"></i>
+              </div>
+              <div>
+                <span class="text-4xl font-black text-[#1a2639]">24</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2: G80 / G90 -->
+        <article class="product-card reveal stagger-2">
+          <h4 class="text-center font-black text-[10px] mb-5 tracking-[0.3em] text-brand-textDark/60 uppercase">Calibres Disponibles</h4>
+
+          <div class="grid grid-cols-2 gap-4 border-b border-gray-400/40 pb-5 mb-5">
+            <div class="text-center border-r border-gray-400/40 pr-4">
+              <span class="block text-5xl font-black text-[#1a2639]">G80</span>
+              <span class="block text-xs font-black mt-1 text-[#1a2639]">Z170</span>
+              <span class="block text-[11px] leading-snug mt-1.5 font-medium text-[#1a2639]/75">170 g/m² de zinc<br>(ambas caras)</span>
+            </div>
+            <div class="text-center">
+              <span class="block text-5xl font-black text-[#1a2639]">G90</span>
+              <span class="block text-xs font-black mt-1 text-[#1a2639]">Z275</span>
+              <span class="block text-[11px] leading-snug mt-1.5 font-medium text-[#1a2639]/75">275 g/m² de zinc<br>(ambas caras)</span>
+            </div>
+          </div>
+
+          <div class="flex justify-between items-center">
+            <div class="w-1/2 pr-3">
+              <img src="img/service.png" alt="Lámina galvanizada ESMEX"
+                   class="w-full object-cover rounded-lg"
+                   style="mix-blend-mode: multiply;">
+            </div>
+            <div class="w-1/2 flex flex-col items-end justify-center gap-3">
+              <div class="flex items-center gap-2">
+                <span class="text-4xl font-black text-[#1a2639]">22</span>
+                <i class="fa-solid fa-circle-check text-[#1a2639] text-xl"></i>
+              </div>
+              <div>
+                <span class="text-4xl font-black text-[#1a2639]">24</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3: Features list -->
+        <article class="product-card reveal stagger-3 flex flex-col justify-between">
+          <div>
+            <h4 class="font-black text-xl mb-6 uppercase text-[#1a2639] leading-tight">
+              Lámina Galvanizada<br>Para Ductos y<br>Construcción
+            </h4>
+
+            <ul class="space-y-4 text-sm font-black text-[#1a2639]">
+              <li class="flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-[#1a2639] shrink-0"></div>
+                Excelente Soldabilidad
+              </li>
+              <li class="flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-[#1a2639] shrink-0"></div>
+                Fácil Formado
+              </li>
+              <li class="flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-[#1a2639] shrink-0"></div>
+                Larga Vida Útil
+              </li>
+              <li class="flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-[#1a2639] shrink-0"></div>
+                Entrega Inmediata
+              </li>
+              <li class="flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-[#1a2639] shrink-0"></div>
+                Alta Resistencia a la Corrosión
+              </li>
+            </ul>
+          </div>
+
+          <a href="#contacto" class="btn-primary text-center mt-8 block">
+            Solicitar Información
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         BENEFITS BAR
+         ============================================================ -->
+    <section class="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-16 pb-10 relative z-10">
+      <div class="benefits-bar reveal">
+        <div class="grid grid-cols-2 md:grid-cols-5 divide-y md:divide-y-0 md:divide-x divide-white/10">
+          <div class="benefits-bar-item">
+            <i class="fa-solid fa-shield-halved"></i>
+            <p>Alta Resistencia<br>a la Corrosión</p>
+          </div>
+          <div class="benefits-bar-item">
+            <i class="fa-solid fa-award"></i>
+            <p>Certificado<br>de Calidad</p>
+          </div>
+          <div class="benefits-bar-item">
+            <i class="fa-solid fa-medal"></i>
+            <p>Garantía<br>Estructural</p>
+          </div>
+          <div class="benefits-bar-item">
+            <i class="fa-solid fa-layer-group"></i>
+            <p>Acabado Uniforme<br>y Duradero</p>
+          </div>
+          <div class="benefits-bar-item col-span-2 md:col-span-1">
+            <i class="fa-solid fa-warehouse"></i>
+            <p>Atención a Proyectos<br>Industriales</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         BENEFICIOS / VENTAJAS COMPETITIVAS
+         ============================================================ -->
+    <section id="beneficios" class="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-16 py-20 relative z-10">
+
+      <div class="text-center max-w-2xl mx-auto mb-14 reveal">
+        <p class="text-brand-accent text-[10px] font-bold uppercase tracking-[0.35em] mb-3">¿Por qué elegirnos?</p>
+        <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight text-white mb-4">
+          Ventajas Competitivas
+        </h2>
+        <p class="text-gray-400 font-medium text-sm leading-relaxed">
+          Más de 15 años respaldando proyectos industriales y de construcción en México,
+          con materiales de primer nivel y atención personalizada.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div class="benefit-item">
+          <div class="benefit-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <p class="text-[10px] font-black uppercase tracking-wider text-white leading-tight">Anti-<br>Corrosión</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon"><i class="fa-solid fa-star"></i></div>
+          <p class="text-[10px] font-black uppercase tracking-wider text-white leading-tight">Calidad<br>Certificada</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <p class="text-[10px] font-black uppercase tracking-wider text-white leading-tight">Entrega<br>Inmediata</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon"><i class="fa-solid fa-headset"></i></div>
+          <p class="text-[10px] font-black uppercase tracking-wider text-white leading-tight">Asesoría<br>Personalizada</p>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon"><i class="fa-solid fa-industry"></i></div>
+          <p class="text-[10px] font-black uppercase tracking-wider text-white leading-tight">Proyectos<br>Industriales</p>
+        </div>
+        <div class="benefit-item col-span-2 sm:col-span-1 lg:col-span-1">
+          <div class="benefit-icon"><i class="fa-solid fa-check-double"></i></div>
+          <p class="text-[10px] font-black uppercase tracking-wider text-white leading-tight">Garantía<br>Estructural</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         CONTACT: LOGISTICS + MAP + FORM
+         ============================================================ -->
+    <section id="contacto" class="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-16 py-20 mb-12 relative z-10">
+
+      <div class="section-title-wrap reveal">
+        <i class="fa-solid fa-envelope-open-text text-brand-accent text-3xl mt-1 shrink-0"></i>
+        <div>
+          <p class="text-brand-accent text-[10px] font-bold uppercase tracking-[0.3em] mb-1">Estamos para servirte</p>
+          <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight text-white">Ubicación y Contacto</h2>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+        <!-- Columna 1: Logística -->
+        <div class="contact-card p-8 relative overflow-hidden reveal flex flex-col">
+          <h3 class="text-base font-black uppercase text-white mb-6 tracking-widest">Servicios y Logística</h3>
+
+          <ul class="space-y-5 text-sm font-bold text-white uppercase tracking-wide flex-grow relative z-10">
+            <li class="flex items-start gap-3">
+              <i class="fa-solid fa-location-dot text-brand-accent mt-0.5 shrink-0 w-4 text-center"></i>
+              <span>Cobertura de entrega en Puebla y zona metropolitana.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i class="fa-solid fa-truck-fast text-brand-accent mt-0.5 shrink-0 w-4 text-center"></i>
+              <span>Envíos seguros y monitoreados.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i class="fa-solid fa-clock text-brand-accent mt-0.5 shrink-0 w-4 text-center"></i>
+              <span>Lun–Vie 8:00 am – 6:00 pm<br>Sáb 9:00 am – 1:00 pm</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i class="fa-solid fa-boxes-stacked text-brand-accent mt-0.5 shrink-0 w-4 text-center"></i>
+              <span>Stock disponible en planta para entrega inmediata.</span>
+            </li>
+          </ul>
+
+          <!-- WhatsApp contact block -->
+          <a href="https://wa.me/525615533783" target="_blank" rel="noopener noreferrer"
+             class="relative z-10 mt-8 flex items-center gap-4 bg-[#25d366]/10 border border-[#25d366]/25 rounded-2xl p-4 hover:bg-[#25d366]/20 transition-colors duration-300 group">
+            <i class="fa-brands fa-whatsapp text-4xl text-[#25d366] group-hover:scale-110 transition-transform"></i>
+            <div>
+              <p class="text-2xl font-black text-white tracking-widest">561 553 3783</p>
+              <p class="text-brand-accent text-[10px] font-bold uppercase tracking-widest mt-0.5">Escríbenos por WhatsApp</p>
+            </div>
+          </a>
+
+          <!-- Decorative icon -->
+          <i class="fa-brands fa-whatsapp text-[9rem] text-white/[0.04] absolute -bottom-8 -left-8 z-0 pointer-events-none"></i>
+        </div>
+
+        <!-- Columna 2: Dirección -->
+        <div class="contact-card p-8 reveal stagger-1 flex flex-col items-center justify-center text-center" style="min-height: 380px;">
+          <i class="fa-solid fa-location-dot text-[6rem] text-brand-accent mb-6 leading-none"></i>
+          <p class="text-[10px] font-bold uppercase tracking-[0.3em] text-gray-400 mb-4">Nuestra Ubicación</p>
+          <p class="text-3xl font-black text-white uppercase leading-tight mb-3">16 Sur 10530</p>
+          <p class="text-base font-bold text-gray-300 uppercase tracking-wider leading-snug mb-1">Granjas San Isidro 082</p>
+          <p class="text-base font-bold text-gray-300 uppercase tracking-wider mb-1">C.P. 72587</p>
+          <p class="text-base font-black text-brand-accent uppercase tracking-widest">Puebla, Pue.</p>
+          <a href="https://maps.google.com/?q=16+Sur+10530,+Granjas+San+Isidro,+Puebla,+Pue."
+             target="_blank"
+             rel="noopener noreferrer"
+             class="mt-8 inline-flex items-center gap-2 text-xs font-black uppercase tracking-widest text-gray-400 hover:text-brand-accent transition-colors duration-200">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver en Google Maps
+          </a>
+        </div>
+
+        <!-- Columna 3: Formulario -->
+        <div class="contact-card p-8 reveal stagger-2">
+          <h3 class="text-base font-black uppercase text-white mb-6 tracking-widest">Cotiza tu Proyecto</h3>
+
+          <form id="contactForm" class="space-y-4" novalidate>
+            <input
+              type="text"
+              name="nombre"
+              placeholder="Nombre completo"
+              required
+              class="form-input"
+            >
+            <input
+              type="text"
+              name="empresa"
+              placeholder="Empresa (opcional)"
+              class="form-input"
+            >
+            <input
+              type="tel"
+              name="telefono"
+              placeholder="Teléfono / WhatsApp"
+              required
+              class="form-input"
+            >
+            <textarea
+              name="mensaje"
+              placeholder="Describe tu proyecto o lo que necesitas…"
+              rows="3"
+              required
+              class="form-input resize-none"
+            ></textarea>
+
+            <button type="submit" class="btn-primary w-full mt-2" style="padding-top:1rem; padding-bottom:1rem;">
+              <i class="fa-solid fa-paper-plane mr-2"></i> Enviar Mensaje
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- /main -->
+
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="relative z-10">
+    <div class="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-16 py-10">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+
+        <!-- Logo -->
+        <img src="img/logo.png" alt="ESMEX Aceros" class="footer-logo">
+
+        <!-- Feature chips -->
+        <div class="flex flex-wrap justify-center gap-6 md:gap-10 text-[10px] font-black text-gray-400 uppercase tracking-widest">
+          <div class="flex items-center gap-2 hover:text-brand-accent transition-colors">
+            <i class="fa-regular fa-circle-check text-base"></i>
+            <span>Producción Óptima</span>
+          </div>
+          <div class="flex items-center gap-2 hover:text-brand-accent transition-colors">
+            <i class="fa-solid fa-truck-fast text-base"></i>
+            <span>Entregas Seguras</span>
+          </div>
+          <div class="flex items-center gap-2 hover:text-brand-accent transition-colors">
+            <i class="fa-solid fa-headset text-base"></i>
+            <span>Atención a tu Proyecto</span>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <p class="text-gray-600 text-[10px] font-bold uppercase tracking-wider text-center">
+          © 2026 ESMEX Aceros.<br class="sm:hidden"> Todos los derechos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       WHATSAPP FLOATING BUTTON
+       ============================================================ -->
+  <a href="https://wa.me/525615533783"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="whatsapp-fab"
+     aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+
+
+
+  <!-- Main script -->
+  <script src="main.js"></script>
+
+</body>
+</html>
